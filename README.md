@@ -66,17 +66,6 @@ dot-product extension. A Raspberry Pi 4 (Cortex-A72) lacks it, so the direction
 of the result should hold but the magnitude of the speedup is likely overstated
 for that class of device.
 
-## Repository contents
-
-```
-[LIST YOUR NOTEBOOKS HERE, e.g.]
-01_training_baseline.ipynb      Train the FP32 MobileNetV3-Large baseline
-02_post_training_quant.ipynb    Dynamic-range PTQ and evaluation
-03_qat.ipynb                    Quantization-aware training
-04_pruning.ipynb                Unstructured magnitude pruning
-05_benchmarks.ipynb             Cross-architecture latency measurement
-```
-
 ## Dataset
 
 [PKLot](https://web.inf.ufpr.br/vri/databases/parking-lot-database/) — parking lot
@@ -92,20 +81,6 @@ To run locally you'll need Python 3.10+, TensorFlow, and a Jupyter environment.
 Latency benchmarks are hardware-dependent — your numbers will differ. The
 comparison *between* precisions on the *same* machine is the meaningful signal,
 not the absolute milliseconds.
-
-## Citation
-
-```bibtex
-@inproceedings{aquino2026quantization,
-  title     = {Dynamic Range Quantization for Vision-Based Parking Detection
-               on Resource-Constrained Edge Infrastructure},
-  author    = {Aquino, Aviel and Edbert, Ivan Sebastian and
-               Siswoyo, Jayson Prasada and Ndruru, Samson},
-  booktitle = {International Conference on Cybernetics and Intelligent Systems (ICORIS)},
-  year      = {2026},
-  publisher = {IEEE}
-}
-```
 
 ## Contact
 
