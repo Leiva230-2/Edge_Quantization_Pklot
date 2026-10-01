@@ -11,7 +11,7 @@ occupancy detection on edge hardware.
 > International Conference on Cybernetics and Intelligent Systems (ICORIS) 2026.
 > IEEE · Scopus-indexed.
 >
-> 📄 Paper: `[ADD IEEE XPLORE LINK ONCE PUBLISHED]`
+> 📄 Paper: `[Is still being published]`
 
 ---
 
